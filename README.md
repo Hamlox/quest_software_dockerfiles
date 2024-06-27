@@ -4,3 +4,5 @@ A repository for all Dockerfiles or Singularity Definition files used for the pu
 Note: for any micromamba-docker-based containers converted to Singularity, you will have to add `/usr/local/bin/_entrypoint.sh` [before the command you wish to execute](https://micromamba-docker.readthedocs.io/en/latest/faq.html#how-can-i-use-a-mambaorg-micromamba-based-image-with-apptainer). For example:
 
 `singularity exec micromamba-python.sif /usr/local/bin/_entrypoint.sh python --help`
+
+This corresponding images built from these Dockerfiles live in our [DockerHub](https://hub.docker.com/u/nuitrcs).
